@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Charlotte's Project</title>
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="Enter City Here ..."
+          autocomplete="off"
+          autofocus="on"
+          class="search-bar"
+          ;
+        />
+
+        <input type="Submit" value="Search" class="search-button" />
+        <input type="Submit" value="Current" class="current-button" />
+      </form>
+
+      <h1 id="city">London, England, UK</h1>
+
+      <ul>
+        <li id="date">Sat 26th November 2022</li>
+        <li>Partly Cloudy</li>
+      </ul>
+
+      <span class="temperature"> 6 </span>
+      <span class="ºC"> ºC </span>
+
+      <div class="information">
+        <li>Precipitation: 0%</li>
+        <li>Humidity: 32%</li>
+        <li>Wind: 16 km/h</li>
+      </div>
+    </div>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
